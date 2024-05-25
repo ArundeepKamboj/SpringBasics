@@ -23,6 +23,7 @@ public class SpringScopeApplication {
 
 		logger.info("{}", personDAO);
 		logger.info("{}",personDAO.getJdbcConnection());
+		logger.info("{}",personDAO.getJdbcConnection());
 
 		logger.info("{}",personDAO1);
 		logger.info("{}",personDAO1.getJdbcConnection());
